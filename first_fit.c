@@ -30,13 +30,20 @@ int main(){
         printf("\nProcess\tProcess Size\tBlock Size\n");
         for(i=0;i<np;i++){
                 for(j=0;j<n;j++){
-                        if(p[i].ps.flag!=1){
+                        if(p[i].flag!=1){
                                 if(p[i].ps<=s[j].size && s[j].alloc==0){
                                         p[i].flag=1;
                                         s[j].alloc=1;
-                                        printf("P%
+                                        printf("P%d\t\t%d\t\t%d\n",i,p[i].ps,s[j].size);
+                                        break;
                                 }
                         }
                 }
         }
+        for(i=0;i<np;i++){
+                if(p[i].flag!=1){
+                        printf("Process %d must wait as there is no sufficient memory\n",i);
+                }
+        }
+        return 0;
 }
