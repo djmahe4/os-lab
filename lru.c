@@ -2,7 +2,7 @@
 #include<stdlib.h> 
 #define MAX 100 
 #define MIN 10 
-int ref[MAX], count, frame[MIN), n; 
+int ref[MAX], count, frame[MIN], n; 
 void input() { 
 int i, temp; 
 count =0; 
@@ -58,8 +58,7 @@ for (k = j; k< top- 1; k++) {
 
 stack[k] = stack[k+ 1];
 }
-stack[top - 1] = temp; }else f 
-I/ Page fault 
+stack[top - 1] = temp; }else {
 fault++; 
 if (top < n) { 
 stack[top++] = ref[il; 
@@ -67,13 +66,15 @@ stack[top++] = ref[il;
 for (k = 0; k<n -1; k++) { 
 stack[k]= stack[k+ 1]; 
 stack[n - 1] = ref[i]; 
+}}
 printf("\nAfter inserting %d, the stack status is:", ref[il); 
 for (j = 0; j < top; j++) { 
 printf("%d", stack[j); 
+}}
 printf("\nEnd of reference string 
 insertion."); 
-printf("nTotal page faults: %d.n", 
-fault); 
+printf("nTotal page faults: %d.n", fault); 
+}
 int main(){ 
 int choice; 
 while (1){ 
@@ -109,11 +110,9 @@ exit(0);
 
 default: 
 
-printf("\ninvalid choice. 
-
-Please enter 1, 2, or 0.\n"); 
+printf("\ninvalid choice. Please enter 1, 2, or 0.\n"); 
 
 break; 
-
+}}
 return 0;
 }
