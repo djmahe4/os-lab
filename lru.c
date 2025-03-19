@@ -48,7 +48,7 @@ int found = 0;
 
 for (j = 0; j < top; j++) { 
 
-if (stack[j] == ref[i) { 
+if (stack[j] == ref[i]) { 
 
 found = 1; 
 
