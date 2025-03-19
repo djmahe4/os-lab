@@ -10,9 +10,9 @@ scanf("%d",&n);
 
 printf("Enter the number of blocks needed for each file: \n"); 
 
-for(i-0;i<n;it+) 
+for(i-0;i<n;i++) 
 
-scanf("%d",&block[i)); 
+scanf("%d",&block[i]); 
 
 start=0; 
 
