@@ -18,15 +18,11 @@ start=0;
 
 printf("t\tFile name\tStart\tSize of file\t\t\n"); 
 
-printf("\nlt\tFile 1\t\t%dt\t%dn",start,block 
+printf("\nlt\tFile 1\t\t%dt\t%dn",start,block[0]); 
 
-[0); 
-
-for(i=2;i<=n;it+){ 
+for(i=2;i<=n;i++){ 
 
 start=start+block[i-2]; 
 
-printf("\t\tFile%d\t\t%d\t\t%dn",i,start,blo 
-
-ck[i-1]);
+printf("\t\tFile%d\t\t%d\t\t%dn",i,start,block[i-1]);
 }}
