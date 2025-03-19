@@ -66,7 +66,7 @@ stack[top - 1] = temp; }
 else {
 fault++; 
 if (top < n) { 
-stack[top++] = ref[il; 
+stack[top++] = ref[i]; 
 } else { 
 for (k = 0; k<n -1; k++) { 
 stack[k]= stack[k+ 1]; 
@@ -75,10 +75,10 @@ stack[n - 1] = ref[i];
 }}
 printf("\nAfter inserting %d, the stack status is:", ref[i]); 
 for (j = 0; j < top; j++) { 
-printf("%d", stack[j); 
+printf("%d", stack[j]); 
 }}
 printf("\nEnd of reference string insertion."); 
-printf("nTotal page faults: %d.n", fault); 
+printf("\nTotal page faults: %d\n", fault); 
 }
 int main(){ 
 int choice; 
@@ -109,7 +109,7 @@ break;
 
 case 0: 
 
-printf("nExiting program. Goodbye!\n"); 
+printf("\nExiting program. Goodbye!\n"); 
 
 exit(0); 
 
