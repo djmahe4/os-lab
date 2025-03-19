@@ -18,7 +18,7 @@ scanf("%d", &m);
 
 printf("Enter the total available resources:\n"); 
 
-for (i = 0; i < m; it+) { 
+for (i = 0; i < m; i++) { 
 
 scanf("%d", &avail[i]); 
 
@@ -26,7 +26,7 @@ work[i] = avail[i];
 }
 printf("Enter the maximum resources required by each process (max matrix):\n"); 
 
-for (i = 0; i <n; i+) { 
+for (i = 0; i <n; i++) { 
 
 for (j = 0; j< m; j++) { 
 
@@ -61,7 +61,7 @@ count =0;
 }
 for (j = 0; j < m; j++) { 
 
-if (need[i[i][j] <= work[j]) { 
+if (need[i][j] <= work[j]) { 
 
 count++;
 if (count == m) { 
