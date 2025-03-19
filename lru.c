@@ -22,7 +22,7 @@ while (temp != -1){
 } 
 scanf("%d", &temp);
 }
-printf("\nMaximum Reference string completed. Length: %dn", count); 
+printf("\nMaximum Reference string completed. Length: %d\n", count); 
 
 } 
 
