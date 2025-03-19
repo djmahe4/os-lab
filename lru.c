@@ -15,7 +15,7 @@ return;
 printf("nEnter the reference string (-1 to end): "); 
 scanf("%d", &temp); 
 while (temp != -1){ 
-  ref[countt+] = temp; 
+  ref[count++] = temp; 
   if (count >= MAX) { 
     printf("\nMaximum reference string size (%d) reached.\n", MAX); 
     break; 
