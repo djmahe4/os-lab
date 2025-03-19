@@ -83,11 +83,11 @@ printf("\nTotal page faults: %d\n", fault);
 int main(){ 
 int choice; 
 while (1){ 
-printf("n\t-----MENU---."); 
-printf("nlt1. Input"); 
-printf("n\t2. LRU (Least Recently Used) Algorithm");
+printf("\n\t-----MENU---."); 
+printf("\nlt1. Input"); 
+printf("\n\t2. LRU (Least Recently Used) Algorithm");
 
-printf("n\t0. Exit"); 
+printf("\n\t0. Exit"); 
 
 printf("\n\tEnter your choice: "); 
 
