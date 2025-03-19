@@ -10,7 +10,7 @@ scanf("%d",&n);
 
 printf("\n enter the page number: "); 
 
-for(i=1;i<=n;it+) scanf("%d",&a[i]); 
+for(i=1;i<=n;i++) scanf("%d",&a[i]); 
 
 printf("\n enter the number of frames: "); 
 
@@ -18,7 +18,7 @@ scanf("%d",&no);
 
 for(i=0;i<no;i++) frame[i]=-1; 
 
-j-0; 
+j=0; 
 
 printf("\tref string\t page frames\n"); 
 
@@ -35,7 +35,7 @@ if(frame[k]==a[i])
 avail=1; 
 if(avail==0) 
 
-{ frame[jl=a[i]; 
+{ frame[j]=a[i]; 
 
 j=(j+1)%no; 
 count++; 
