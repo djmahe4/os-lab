@@ -55,7 +55,7 @@ for (k = 0; k<n; k++) {
 
 for (i = 0; i <n; i++) { 
 
-if (finish[i] ==f) {
+if (finish[i] =='f') {
 
 count =0; 
 }
